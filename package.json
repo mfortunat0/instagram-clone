@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@types/styled-components": "^5.1.9",
+    "nanoid": "^3.1.22",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
