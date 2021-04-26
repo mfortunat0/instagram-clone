@@ -1,1 +1,1 @@
-# React clone
+<h1 align=center><img src="./.github/preview.gif"/></h1>
