@@ -86,10 +86,7 @@ export default function Form() {
         buttonText={modalContent.buttonText}
         showToast={showToast}
       />
-      <Toast
-        show={toastIsVisible}
-        email={inputEmailRef?.current?.value || "gmail"}
-      />
+      <Toast show={toastIsVisible} email={inputEmailRef.current?.value} />
       <Main onSubmit={(event) => event.preventDefault()}>
         <Logo src="/logo.png" />
         <InputEmail
