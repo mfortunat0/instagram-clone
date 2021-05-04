@@ -7,9 +7,7 @@ export const Header = styled.header`
   height: 9vh;
   border-bottom: 1px solid #808080;
 `;
-export const Logo = styled.img`
-  height: 7vh;
-`;
+
 export const Container = styled.div`
   height: 90vh;
   display: flex;
@@ -18,7 +16,7 @@ export const Container = styled.div`
   align-items: center;
   padding: 0 13vw;
 `;
-export const Image = styled.div`
+export const ImageBackground = styled.div`
   background-image: url("/backgrounds.png");
   background-position-x: -319px;
   background-position-y: -223px;

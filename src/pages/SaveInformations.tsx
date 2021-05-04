@@ -1,20 +1,20 @@
 import {
   Button,
   Header,
-  Image,
-  Logo,
   Text,
+  ImageBackground,
   Container,
 } from "../styles/SaveInformations";
+import Image from "next/image";
 
 export default function SaveInformations() {
   return (
     <>
       <Header>
-        <Logo src="logo.png" />
+        <Image src="/logo.png" width={103} height={29} objectFit="cover" />
       </Header>
       <Container>
-        <Image />
+        <ImageBackground />
         <Text>Salvar suas informações de login?</Text>
         <Text>
           Podemos salvar suas informações de login neste navegador para que você

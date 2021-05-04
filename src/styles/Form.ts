@@ -23,11 +23,6 @@ export const Main = styled.form`
   padding: 5vh 0 0 0;
 `;
 
-export const Logo = styled.img`
-  width: 60%;
-  margin-bottom: 5vh;
-`;
-
 const Input = `
     width: 75%;
     outline: unset;
@@ -40,6 +35,7 @@ const Input = `
 export const InputEmail = styled.input.attrs({ type: "email" })`
   ${Input}
   margin-bottom: 1vh;
+  margin-top: 5vh;
 `;
 
 export const InputPassword = styled.input.attrs({ type: "password" })`
@@ -49,11 +45,11 @@ export const InputPassword = styled.input.attrs({ type: "password" })`
 
 export const Button = styled.button<IButton>`
   padding: 8px;
-  width: 75%;
-  border-radius: 4px;
-  font-weight: bold;
   outline: unset;
   border: unset;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 75%;
   margin-bottom: 3vh;
   background-color: #0095f6;
   color: white;
@@ -112,10 +108,6 @@ export const ContainerStore = styled.div`
   width: 100%;
   gap: 10px;
   margin-bottom: 10vh;
-`;
-
-export const Image = styled.img`
-  width: 43%;
 `;
 
 export const Footer = styled.footer`

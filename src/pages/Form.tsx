@@ -5,17 +5,16 @@ import {
   Footer,
   InputEmail,
   Link,
-  Logo,
   Main,
   Row,
   ContainerStore,
   Text,
   InputPassword,
-  Image,
   FacebookIcon,
   LinkFacebook,
 } from "../styles/Form";
 
+import Image from "next/image";
 import Modal from "../components/Modal";
 import Toast from "../components/Toast";
 import { useState, useRef } from "react";
@@ -88,7 +87,7 @@ export default function Form() {
       />
       <Toast show={toastIsVisible} email={inputEmailRef.current?.value} />
       <Main onSubmit={(event) => event.preventDefault()}>
-        <Logo src="/logo.png" />
+        <Image src="/logo.png" width={175} height={51} objectFit="cover" />
         <InputEmail
           onChange={validateInputs}
           ref={inputEmailRef}
@@ -127,8 +126,8 @@ export default function Form() {
         </Text>
         <Text mgBottom="3vh">Obetenha o aplicativo</Text>
         <ContainerStore>
-          <Image src="appleStore.png" />
-          <Image src="playStore.png" />
+          <Image src="/appleStore.png" width="130%" height="40%" />
+          <Image src="/playStore.png" width="130%" height="40%" />
         </ContainerStore>
         <Footer>
           <Link size="small">Sobre</Link>
