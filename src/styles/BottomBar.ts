@@ -8,7 +8,7 @@ export const Navbar = styled.nav`
   width: 100%;
   justify-self: flex-end;
   bottom: 0;
-  border-top: 1px solid rgb(219, 219, 219, 0.9);
+  border-top: 1px solid rgba(219, 219, 219, 0.9);
 `;
 
 export const Avatar = styled.img`

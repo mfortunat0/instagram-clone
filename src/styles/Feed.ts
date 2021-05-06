@@ -13,9 +13,9 @@ export const Navbar = styled.nav`
 export const Status = styled.section`
   display: flex;
   overflow-x: auto;
-  margin-top: 11vh;
-  padding-left: 6vw;
-  align-items: center;
+  margin-top: 10vh;
+  padding: 0 0 2vh 6vw;
+  border-bottom: 1px solid rgb(219, 219, 219, 0.9);
   gap: 20px;
   ::-webkit-scrollbar {
     display: none;
@@ -33,4 +33,29 @@ export const StatusBorder = styled.div`
 
 export const ImageRounded = styled.img`
   border-radius: 50%;
+`;
+
+export const StatusItem = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const StatusProfile = styled.div`
+  margin-top: 3px;
+  text-align: center;
+`;
+
+export const StatusName = styled.p`
+  font-size: 12px;
+  margin-top: 3px;
+`;
+
+export const PlusButton = styled.img`
+  position: relative;
+  top: -38px;
+  left: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid white;
 `;
