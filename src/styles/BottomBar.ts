@@ -9,6 +9,7 @@ export const Navbar = styled.nav`
   justify-self: flex-end;
   bottom: 0;
   border-top: 1px solid rgba(219, 219, 219, 0.9);
+  background-color: white;
 `;
 
 export const Avatar = styled.img`

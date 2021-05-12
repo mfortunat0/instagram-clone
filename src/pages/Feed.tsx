@@ -7,12 +7,15 @@ import {
   StatusName,
   StatusProfile,
   PlusButton,
+  Bar,
+  Main,
 } from "../styles/Feed";
 import Image from "next/image";
+import Post from "../components/Post";
 
 export default function Feed() {
   return (
-    <div>
+    <Main>
       <Navbar>
         <Image src="/camera.svg" width={24} height={24} />
         <Image src="/logo.png" width={103} height={29} objectFit="cover" />
@@ -90,6 +93,8 @@ export default function Feed() {
           <StatusName>other</StatusName>
         </StatusItem>
       </Status>
-    </div>
+      <Bar />
+      <Post />
+    </Main>
   );
 }

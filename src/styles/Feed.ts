@@ -6,16 +6,17 @@ export const Navbar = styled.nav`
   padding: 1.5vh 5vw;
   position: fixed;
   width: 100%;
-  border-bottom: 1px solid rgb(219, 219, 219, 0.9);
+  border-bottom: 1px solid rgba(219, 219, 219, 0.9);
   top: 0;
+  background-color: white;
+  z-index: 2;
 `;
 
 export const Status = styled.section`
   display: flex;
   overflow-x: auto;
   margin-top: 10vh;
-  padding: 0 0 2vh 6vw;
-  border-bottom: 1px solid rgb(219, 219, 219, 0.9);
+  padding-left: 6vw;
   gap: 20px;
   ::-webkit-scrollbar {
     display: none;
@@ -58,4 +59,16 @@ export const PlusButton = styled.img`
   background-color: white;
   border-radius: 50%;
   border: 1px solid white;
+`;
+
+export const Bar = styled.div`
+  background-color: rgba(219, 219, 219, 0.9);
+  height: 1px;
+  width: 100%;
+  position: relative;
+  top: -8px;
+`;
+
+export const Main = styled.div`
+  margin-bottom: 15vh;
 `;
